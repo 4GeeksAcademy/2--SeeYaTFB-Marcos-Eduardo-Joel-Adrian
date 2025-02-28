@@ -22,7 +22,7 @@ const ListaVuelos = ({ filters }) => {
   
   useEffect(() => {
     fetch(
-      `https://animated-garbanzo-g45pxgwx4xr729754-5000.app.github.dev/flights`,
+      `https://bug-free-space-bassoon-pjpjpx696569hrqqx-5000.app.github.dev/flights`,
       {
         method: "GET",
       },

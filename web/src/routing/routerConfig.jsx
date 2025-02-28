@@ -2,7 +2,7 @@ import Homepage from "../pages/Homepage";
 import { PaginaVuelos } from "../pages/PaginaVuelos";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import HotelsPage from "../pages/Hoteles";
+import { PaginaHoteles } from "../pages/PaginaHoteles";
 
 
 const routerConfig = [
@@ -14,7 +14,7 @@ const routerConfig = [
     element: <PaginaVuelos />,
   },{
     path: "/hoteles",
-    element: <HotelsPage />,
+    element: <PaginaHoteles />,
   },{
     path: "/login",
     element: <Login />,

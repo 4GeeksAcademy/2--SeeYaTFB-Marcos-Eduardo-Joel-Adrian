@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import BuscadorVuelos from "../components/BuscadorVuelos";
-import ListaVuelos from "../components/Listavuelos";
+import BuscadorVuelos from "../components/buscador/BuscadorVuelos";
+import ListaVuelos from "../components/listas/Listavuelos";
 import Grid from "@mui/material/Grid";
 
 export const PaginaVuelos = () => {

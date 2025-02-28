@@ -272,8 +272,8 @@ def delete_favorite(user_id, id):
     db.session.commit()
     return jsonify({"message": "Favorite deleted successfully"}), 200
 
-@app.route('/hoteles', methods=['GET'])
-def get_hoteles():
+@app.route('/hotels', methods=['GET'])
+def get_hotels():
     all_hoteles = Hoteles.query.all()
     return jsonify(all_hoteles), 200
 
